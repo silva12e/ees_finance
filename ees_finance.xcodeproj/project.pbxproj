@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC699672268BFC3100DED5A7 /* ees_financeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699671268BFC3100DED5A7 /* ees_financeApp.swift */; };
+		CC699674268BFC3100DED5A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699673268BFC3100DED5A7 /* ContentView.swift */; };
+		CC699676268BFC4800DED5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC699675268BFC4800DED5A7 /* Assets.xcassets */; };
+		CC699679268BFC4800DED5A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC699678268BFC4800DED5A7 /* Preview Assets.xcassets */; };
+		CC69967B268BFC4800DED5A7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC69967A268BFC4800DED5A7 /* Persistence.swift */; };
+		CC69967E268BFC4800DED5A7 /* ees_finance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC69967C268BFC4800DED5A7 /* ees_finance.xcdatamodeld */; };
+		CC699689268BFC4C00DED5A7 /* ees_financeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699688268BFC4C00DED5A7 /* ees_financeTests.swift */; };
+		CC699694268BFC4D00DED5A7 /* ees_financeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699693268BFC4D00DED5A7 /* ees_financeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC699685268BFC4C00DED5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC699666268BFC3000DED5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC69966D268BFC3100DED5A7;
+			remoteInfo = ees_finance;
+		};
+		CC699690268BFC4D00DED5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC699666268BFC3000DED5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC69966D268BFC3100DED5A7;
+			remoteInfo = ees_finance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC69966E268BFC3100DED5A7 /* ees_finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ees_finance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC699671268BFC3100DED5A7 /* ees_financeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ees_financeApp.swift; sourceTree = "<group>"; };
+		CC699673268BFC3100DED5A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC699675268BFC4800DED5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC699678268BFC4800DED5A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC69967A268BFC4800DED5A7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CC69967D268BFC4800DED5A7 /* ees_finance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ees_finance.xcdatamodel; sourceTree = "<group>"; };
+		CC69967F268BFC4800DED5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC699684268BFC4C00DED5A7 /* ees_financeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ees_financeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC699688268BFC4C00DED5A7 /* ees_financeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ees_financeTests.swift; sourceTree = "<group>"; };
+		CC69968A268BFC4D00DED5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC69968F268BFC4D00DED5A7 /* ees_financeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ees_financeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC699693268BFC4D00DED5A7 /* ees_financeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ees_financeUITests.swift; sourceTree = "<group>"; };
+		CC699695268BFC4D00DED5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC69966B268BFC3100DED5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC699681268BFC4C00DED5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC69968C268BFC4D00DED5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC699665268BFC3000DED5A7 = {
+			isa = PBXGroup;
+			children = (
+				CC699670268BFC3100DED5A7 /* ees_finance */,
+				CC699687268BFC4C00DED5A7 /* ees_financeTests */,
+				CC699692268BFC4D00DED5A7 /* ees_financeUITests */,
+				CC69966F268BFC3100DED5A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC69966F268BFC3100DED5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC69966E268BFC3100DED5A7 /* ees_finance.app */,
+				CC699684268BFC4C00DED5A7 /* ees_financeTests.xctest */,
+				CC69968F268BFC4D00DED5A7 /* ees_financeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC699670268BFC3100DED5A7 /* ees_finance */ = {
+			isa = PBXGroup;
+			children = (
+				CC699671268BFC3100DED5A7 /* ees_financeApp.swift */,
+				CC699673268BFC3100DED5A7 /* ContentView.swift */,
+				CC699675268BFC4800DED5A7 /* Assets.xcassets */,
+				CC69967A268BFC4800DED5A7 /* Persistence.swift */,
+				CC69967F268BFC4800DED5A7 /* Info.plist */,
+				CC69967C268BFC4800DED5A7 /* ees_finance.xcdatamodeld */,
+				CC699677268BFC4800DED5A7 /* Preview Content */,
+			);
+			path = ees_finance;
+			sourceTree = "<group>";
+		};
+		CC699677268BFC4800DED5A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC699678268BFC4800DED5A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC699687268BFC4C00DED5A7 /* ees_financeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC699688268BFC4C00DED5A7 /* ees_financeTests.swift */,
+				CC69968A268BFC4D00DED5A7 /* Info.plist */,
+			);
+			path = ees_financeTests;
+			sourceTree = "<group>";
+		};
+		CC699692268BFC4D00DED5A7 /* ees_financeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC699693268BFC4D00DED5A7 /* ees_financeUITests.swift */,
+				CC699695268BFC4D00DED5A7 /* Info.plist */,
+			);
+			path = ees_financeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC69966D268BFC3100DED5A7 /* ees_finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC699698268BFC4E00DED5A7 /* Build configuration list for PBXNativeTarget "ees_finance" */;
+			buildPhases = (
+				CC69966A268BFC3100DED5A7 /* Sources */,
+				CC69966B268BFC3100DED5A7 /* Frameworks */,
+				CC69966C268BFC3100DED5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ees_finance;
+			productName = ees_finance;
+			productReference = CC69966E268BFC3100DED5A7 /* ees_finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC699683268BFC4C00DED5A7 /* ees_financeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC69969B268BFC4E00DED5A7 /* Build configuration list for PBXNativeTarget "ees_financeTests" */;
+			buildPhases = (
+				CC699680268BFC4C00DED5A7 /* Sources */,
+				CC699681268BFC4C00DED5A7 /* Frameworks */,
+				CC699682268BFC4C00DED5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC699686268BFC4C00DED5A7 /* PBXTargetDependency */,
+			);
+			name = ees_financeTests;
+			productName = ees_financeTests;
+			productReference = CC699684268BFC4C00DED5A7 /* ees_financeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC69968E268BFC4D00DED5A7 /* ees_financeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC69969E268BFC4E00DED5A7 /* Build configuration list for PBXNativeTarget "ees_financeUITests" */;
+			buildPhases = (
+				CC69968B268BFC4D00DED5A7 /* Sources */,
+				CC69968C268BFC4D00DED5A7 /* Frameworks */,
+				CC69968D268BFC4D00DED5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC699691268BFC4D00DED5A7 /* PBXTargetDependency */,
+			);
+			name = ees_financeUITests;
+			productName = ees_financeUITests;
+			productReference = CC69968F268BFC4D00DED5A7 /* ees_financeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC699666268BFC3000DED5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CC69966D268BFC3100DED5A7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CC699683268BFC4C00DED5A7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CC69966D268BFC3100DED5A7;
+					};
+					CC69968E268BFC4D00DED5A7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CC69966D268BFC3100DED5A7;
+					};
+				};
+			};
+			buildConfigurationList = CC699669268BFC3000DED5A7 /* Build configuration list for PBXProject "ees_finance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC699665268BFC3000DED5A7;
+			productRefGroup = CC69966F268BFC3100DED5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC69966D268BFC3100DED5A7 /* ees_finance */,
+				CC699683268BFC4C00DED5A7 /* ees_financeTests */,
+				CC69968E268BFC4D00DED5A7 /* ees_financeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC69966C268BFC3100DED5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC699679268BFC4800DED5A7 /* Preview Assets.xcassets in Resources */,
+				CC699676268BFC4800DED5A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC699682268BFC4C00DED5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC69968D268BFC4D00DED5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC69966A268BFC3100DED5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC69967E268BFC4800DED5A7 /* ees_finance.xcdatamodeld in Sources */,
+				CC69967B268BFC4800DED5A7 /* Persistence.swift in Sources */,
+				CC699674268BFC3100DED5A7 /* ContentView.swift in Sources */,
+				CC699672268BFC3100DED5A7 /* ees_financeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC699680268BFC4C00DED5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC699689268BFC4C00DED5A7 /* ees_financeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC69968B268BFC4D00DED5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC699694268BFC4D00DED5A7 /* ees_financeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC699686268BFC4C00DED5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC69966D268BFC3100DED5A7 /* ees_finance */;
+			targetProxy = CC699685268BFC4C00DED5A7 /* PBXContainerItemProxy */;
+		};
+		CC699691268BFC4D00DED5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC69966D268BFC3100DED5A7 /* ees_finance */;
+			targetProxy = CC699690268BFC4D00DED5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC699696268BFC4D00DED5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC699697268BFC4D00DED5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC699699268BFC4E00DED5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ees_finance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ees_finance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "silva-ernesto.ees-finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC69969A268BFC4E00DED5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ees_finance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ees_finance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "silva-ernesto.ees-finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC69969C268BFC4E00DED5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ees_financeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "silva-ernesto.ees-financeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ees_finance.app/ees_finance";
+			};
+			name = Debug;
+		};
+		CC69969D268BFC4E00DED5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ees_financeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "silva-ernesto.ees-financeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ees_finance.app/ees_finance";
+			};
+			name = Release;
+		};
+		CC69969F268BFC4E00DED5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ees_financeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "silva-ernesto.ees-financeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ees_finance;
+			};
+			name = Debug;
+		};
+		CC6996A0268BFC4E00DED5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ees_financeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "silva-ernesto.ees-financeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ees_finance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC699669268BFC3000DED5A7 /* Build configuration list for PBXProject "ees_finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC699696268BFC4D00DED5A7 /* Debug */,
+				CC699697268BFC4D00DED5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC699698268BFC4E00DED5A7 /* Build configuration list for PBXNativeTarget "ees_finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC699699268BFC4E00DED5A7 /* Debug */,
+				CC69969A268BFC4E00DED5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC69969B268BFC4E00DED5A7 /* Build configuration list for PBXNativeTarget "ees_financeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC69969C268BFC4E00DED5A7 /* Debug */,
+				CC69969D268BFC4E00DED5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC69969E268BFC4E00DED5A7 /* Build configuration list for PBXNativeTarget "ees_financeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC69969F268BFC4E00DED5A7 /* Debug */,
+				CC6996A0268BFC4E00DED5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC69967C268BFC4800DED5A7 /* ees_finance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC69967D268BFC4800DED5A7 /* ees_finance.xcdatamodel */,
+			);
+			currentVersion = CC69967D268BFC4800DED5A7 /* ees_finance.xcdatamodel */;
+			path = ees_finance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC699666268BFC3000DED5A7 /* Project object */;
+}
