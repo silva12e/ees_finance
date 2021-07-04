@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0BFC9E268EC78D0011CC3A /* EESFinanceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0BFC9D268EC78D0011CC3A /* EESFinanceHeader.swift */; };
+		CC0BFCA0268ED2AB0011CC3A /* EESFincanceOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0BFC9F268ED2AB0011CC3A /* EESFincanceOverview.swift */; };
+		CC0BFCA2268ED4480011CC3A /* EESGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0BFCA1268ED4480011CC3A /* EESGraph.swift */; };
 		CC699672268BFC3100DED5A7 /* ees_financeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699671268BFC3100DED5A7 /* ees_financeApp.swift */; };
 		CC699674268BFC3100DED5A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699673268BFC3100DED5A7 /* ContentView.swift */; };
 		CC699676268BFC4800DED5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC699675268BFC4800DED5A7 /* Assets.xcassets */; };
@@ -15,6 +18,8 @@
 		CC69967E268BFC4800DED5A7 /* ees_finance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC69967C268BFC4800DED5A7 /* ees_finance.xcdatamodeld */; };
 		CC699689268BFC4C00DED5A7 /* ees_financeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699688268BFC4C00DED5A7 /* ees_financeTests.swift */; };
 		CC699694268BFC4D00DED5A7 /* ees_financeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC699693268BFC4D00DED5A7 /* ees_financeUITests.swift */; };
+		CC9216682692523B00B8916E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9216672692523B00B8916E /* ColorExtension.swift */; };
+		CCD3DA9326924003002F412E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = CCD3DA9226924003002F412E /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0BFC9D268EC78D0011CC3A /* EESFinanceHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EESFinanceHeader.swift; sourceTree = "<group>"; };
+		CC0BFC9F268ED2AB0011CC3A /* EESFincanceOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EESFincanceOverview.swift; sourceTree = "<group>"; };
+		CC0BFCA1268ED4480011CC3A /* EESGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EESGraph.swift; sourceTree = "<group>"; };
 		CC69966E268BFC3100DED5A7 /* ees_finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ees_finance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC699671268BFC3100DED5A7 /* ees_financeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ees_financeApp.swift; sourceTree = "<group>"; };
 		CC699673268BFC3100DED5A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 		CC69968F268BFC4D00DED5A7 /* ees_financeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ees_financeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC699693268BFC4D00DED5A7 /* ees_financeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ees_financeUITests.swift; sourceTree = "<group>"; };
 		CC699695268BFC4D00DED5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9216672692523B00B8916E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD3DA9326924003002F412E /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +109,14 @@
 		CC699670268BFC3100DED5A7 /* ees_finance */ = {
 			isa = PBXGroup;
 			children = (
+				CCD3DA8D26923767002F412E /* views */,
 				CC699671268BFC3100DED5A7 /* ees_financeApp.swift */,
-				CC699673268BFC3100DED5A7 /* ContentView.swift */,
 				CC699675268BFC4800DED5A7 /* Assets.xcassets */,
 				CC69967A268BFC4800DED5A7 /* Persistence.swift */,
 				CC69967F268BFC4800DED5A7 /* Info.plist */,
 				CC69967C268BFC4800DED5A7 /* ees_finance.xcdatamodeld */,
 				CC699677268BFC4800DED5A7 /* Preview Content */,
+				CC9216672692523B00B8916E /* ColorExtension.swift */,
 			);
 			path = ees_finance;
 			sourceTree = "<group>";
@@ -136,6 +147,33 @@
 			path = ees_financeUITests;
 			sourceTree = "<group>";
 		};
+		CCD3DA8B26923717002F412E /* overview */ = {
+			isa = PBXGroup;
+			children = (
+				CC0BFC9F268ED2AB0011CC3A /* EESFincanceOverview.swift */,
+				CC0BFC9D268EC78D0011CC3A /* EESFinanceHeader.swift */,
+			);
+			path = overview;
+			sourceTree = "<group>";
+		};
+		CCD3DA8C26923722002F412E /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				CC0BFCA1268ED4480011CC3A /* EESGraph.swift */,
+			);
+			path = graph;
+			sourceTree = "<group>";
+		};
+		CCD3DA8D26923767002F412E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CC699673268BFC3100DED5A7 /* ContentView.swift */,
+				CCD3DA8C26923722002F412E /* graph */,
+				CCD3DA8B26923717002F412E /* overview */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +190,9 @@
 			dependencies = (
 			);
 			name = ees_finance;
+			packageProductDependencies = (
+				CCD3DA9226924003002F412E /* SwiftUICharts */,
+			);
 			productName = ees_finance;
 			productReference = CC69966E268BFC3100DED5A7 /* ees_finance.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +264,9 @@
 				Base,
 			);
 			mainGroup = CC699665268BFC3000DED5A7;
+			packageReferences = (
+				CCD3DA9126924003002F412E /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = CC69966F268BFC3100DED5A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,8 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0BFC9E268EC78D0011CC3A /* EESFinanceHeader.swift in Sources */,
 				CC69967E268BFC4800DED5A7 /* ees_finance.xcdatamodeld in Sources */,
+				CC0BFCA2268ED4480011CC3A /* EESGraph.swift in Sources */,
+				CC9216682692523B00B8916E /* ColorExtension.swift in Sources */,
 				CC69967B268BFC4800DED5A7 /* Persistence.swift in Sources */,
+				CC0BFCA0268ED2AB0011CC3A /* EESFincanceOverview.swift in Sources */,
 				CC699674268BFC3100DED5A7 /* ContentView.swift in Sources */,
 				CC699672268BFC3100DED5A7 /* ees_financeApp.swift in Sources */,
 			);
@@ -582,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCD3DA9126924003002F412E /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCD3DA9226924003002F412E /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCD3DA9126924003002F412E /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CC69967C268BFC4800DED5A7 /* ees_finance.xcdatamodeld */ = {
